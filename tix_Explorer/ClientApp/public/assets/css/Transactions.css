@@ -1,0 +1,1106 @@
+.transactions-list-box .transactions-list-picture-profit {
+    border-radius: 10px;
+    box-shadow: 0 20px 30px hsla(0,0%,6%,.06);
+    height: 96px;
+    margin: 40px auto;
+    max-width: 1000px;
+    width: auto
+}
+
+.transactions-list-wrapper {
+    padding-bottom: 80px
+}
+
+    .transactions-list-wrapper .increase-color {
+        color: #2d912c !important
+    }
+
+    .transactions-list-wrapper .transactions-table-list {
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden
+    }
+
+        .transactions-list-wrapper .transactions-table-list .eye-icon {
+            align-items: center;
+            background: #f6f7fb;
+            border-radius: 5px;
+            display: flex;
+            height: 20px;
+            justify-content: center;
+            width: 20px
+        }
+
+        .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper {
+            display: inline-flex;
+            position: relative
+        }
+
+            .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper .bage {
+                background: #c23631;
+                border-radius: 100%;
+                color: #fff;
+                cursor: pointer;
+                font-family: PingFangSC-Regular;
+                font-weight: 400;
+                height: 14px;
+                line-height: 14px;
+                min-width: 14px;
+                padding: 0;
+                position: absolute;
+                right: -14px;
+                text-align: center;
+                top: -5px
+            }
+
+                .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper .bage .bageFont {
+                    font-size: 12px;
+                    transform: scale(.8)
+                }
+
+                .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper .bage .bage-menu {
+                    left: -6rem;
+                    max-height: 165px;
+                    max-width: 13.3rem;
+                    overflow-y: scroll;
+                    padding: 15px;
+                    top: 20px;
+                    z-index: 999
+                }
+
+                    .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper .bage .bage-menu .bage-list {
+                        display: flex;
+                        justify-content: space-between;
+                        line-height: 22px;
+                        margin-bottom: 2px
+                    }
+
+                        .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper .bage .bage-menu .bage-list span {
+                            font-family: PingFangSC-Regular;
+                            font-size: 12px;
+                            line-height: 22px
+                        }
+
+                        .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper .bage .bage-menu .bage-list .title {
+                            color: #666;
+                            display: inline-block;
+                            min-width: 62px
+                        }
+
+                .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper .bage a {
+                    font-size: 12px
+                }
+
+                .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper .bage:hover .bage-menu {
+                    display: block
+                }
+
+            .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper .address-link, .transactions-list-wrapper .transactions-table-list .transactionToAddressWrapper a {
+                font-size: 14px
+            }
+
+    .transactions-list-wrapper .representatives-data-wrap .representatives-data {
+        margin: 18px 0 0
+    }
+
+        .transactions-list-wrapper .representatives-data-wrap .representatives-data .usdValue {
+            color: #101010;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            word-break: break-all
+        }
+
+            .transactions-list-wrapper .representatives-data-wrap .representatives-data .usdValue span {
+                color: #101010;
+                font-family: Lato
+            }
+
+        .transactions-list-wrapper .representatives-data-wrap .representatives-data .usdShow {
+            margin: 4px 0 2px
+        }
+
+        .transactions-list-wrapper .representatives-data-wrap .representatives-data .desc {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            margin-right: 0;
+            margin-top: 6px;
+            max-width: 100%
+        }
+
+            .transactions-list-wrapper .representatives-data-wrap .representatives-data .desc span {
+                color: #73787b;
+                font-family: PingFang SC
+            }
+
+        .transactions-list-wrapper .representatives-data-wrap .representatives-data span.TxCountNum, .transactions-list-wrapper .representatives-data-wrap .representatives-data span.volumeNum {
+            color: #101010;
+            font-family: Lato;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px;
+            word-break: break-all
+        }
+
+            .transactions-list-wrapper .representatives-data-wrap .representatives-data span.TxCountNum span, .transactions-list-wrapper .representatives-data-wrap .representatives-data span.volumeNum span {
+                color: #101010;
+                font-family: Lato
+            }
+
+        .transactions-list-wrapper .representatives-data-wrap .representatives-data .increase-count span {
+            color: #2d912c !important
+        }
+
+    .transactions-list-wrapper .representatives-data-wrap .chart-wrapper {
+        background-color: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        padding: 20px 20px 0;
+        width: 100%
+    }
+
+@media only screen and (max-width:768px) {
+    .transactions-list-wrapper .representatives-data-wrap .chart-wrapper {
+        padding: 20px 16px 0
+    }
+}
+
+.transactions-list-wrapper .representatives-data-wrap .chart-wrapper .title {
+    background-color: inherit;
+    padding: 0
+}
+
+.transactions-list-wrapper .representatives-data-wrap .chart-wrapper .more a {
+    align-items: center;
+    color: #404245;
+    display: flex;
+    font-size: 14px;
+    font-weight: 400
+}
+
+    .transactions-list-wrapper .representatives-data-wrap .chart-wrapper .more a .iconfont {
+        display: inline-block;
+        font-size: 12px;
+        transform: scale(.6)
+    }
+
+.transactions-list-wrapper .representatives-data-wrap .chart-wrapper .triggger-top {
+    color: #73787b;
+    position: relative
+}
+
+    .transactions-list-wrapper .representatives-data-wrap .chart-wrapper .triggger-top .total-call-time {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        z-index: 1
+    }
+
+        .transactions-list-wrapper .representatives-data-wrap .chart-wrapper .triggger-top .total-call-time p {
+            color: #101010;
+            font-size: 20px;
+            font-weight: 700;
+            margin: 5px 0
+        }
+
+    .transactions-list-wrapper .representatives-data-wrap .chart-wrapper .triggger-top .echarts-wrapper .echart-tooltip-wrapper {
+        padding: 0 !important
+    }
+
+        .transactions-list-wrapper .representatives-data-wrap .chart-wrapper .triggger-top .echarts-wrapper .echart-tooltip-wrapper .chart-tooltip-div-item {
+            padding: 0
+        }
+
+.transactions-list-wrapper .representatives-data-wrap .chart-wrapper .trigger-menu {
+    width: 100%
+}
+
+    .transactions-list-wrapper .representatives-data-wrap .chart-wrapper .trigger-menu > div {
+        margin-bottom: 10px
+    }
+
+        .transactions-list-wrapper .representatives-data-wrap .chart-wrapper .trigger-menu > div .symbol {
+            border-radius: 50%;
+            display: block;
+            height: 5px;
+            margin-right: 8px;
+            width: 5px
+        }
+
+        .transactions-list-wrapper .representatives-data-wrap .chart-wrapper .trigger-menu > div .proportion {
+            color: #73787b;
+            font-size: 12px
+        }
+
+@media only screen and (max-width:768px) {
+    .transactions-list-wrapper .representatives-data-wrap .chart-wrapper .trigger-menu > div {
+        font-size: 12px
+    }
+}
+
+.transactions-list-wrapper .table-header {
+    background-color: #fff;
+    color: #73787b !important;
+    font-size: .875rem;
+    padding: 20px;
+    width: 100%
+}
+
+.transactions-list-wrapper .gap-line {
+    background: #e7e7e7;
+    border-radius: 10px;
+    height: 20px;
+    margin: 0 20px;
+    width: 1px
+}
+
+.transactions-list-wrapper .transaction-table-wrapper .ant-table-measure-row td {
+    padding: 0 !important
+}
+
+.transactions-list-wrapper .transaction-table-wrapper .ant-table {
+    overflow: auto
+}
+
+.transactions-list-wrapper .transaction-table-wrapper .ant-table-row:hover {
+    background: linear-gradient(270deg,hsla(240,9%,98%,0) .9%,#f9fafa 4.05%,#f9fafa 96.75%,hsla(180,9%,98%,0));
+    border-radius: 10px
+}
+
+    .transactions-list-wrapper .transaction-table-wrapper .ant-table-row:hover .table-txn-remark-wrap .add-remark-icon, .transactions-list-wrapper .transaction-table-wrapper .ant-table-row:hover .table-txn-remark-wrap .edit-remark-icon {
+        display: block
+    }
+
+.transactions-list-wrapper .transaction-table-wrapper .ant-table-content {
+    width: 1300px
+}
+
+.transaction-overview-cont .transactions-data-wrap {
+    margin: 20px 0
+}
+
+    .transaction-overview-cont .transactions-data-wrap h2 {
+        font-family: PingFang SC;
+        font-size: 14px;
+        justify-content: space-between;
+        line-height: 20px
+    }
+
+        .transaction-overview-cont .transactions-data-wrap h2 .title {
+            align-items: center;
+            color: #101010;
+            font-weight: 600
+        }
+
+        .transaction-overview-cont .transactions-data-wrap h2 .updatedWrapper {
+            align-items: center;
+            color: #73787b;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 17px
+        }
+
+        .transaction-overview-cont .transactions-data-wrap h2 .more a {
+            color: #404245;
+            font-size: 14px;
+            font-weight: 400
+        }
+
+        .transaction-overview-cont .transactions-data-wrap h2 .more:hover {
+            color: #c53027
+        }
+
+        .transaction-overview-cont .transactions-data-wrap h2 .more .icon-more {
+            zoom: .5;
+            color: #616568;
+            margin-left: 4px
+        }
+
+    .transaction-overview-cont .transactions-data-wrap .transactions-chart-title {
+        color: #73787b;
+        font-family: PingFang SC;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        overflow: hidden;
+        padding: 20px 20px 0
+    }
+
+        .transaction-overview-cont .transactions-data-wrap .transactions-chart-title .title-name {
+            color: #101010;
+            font-size: 14px;
+            font-weight: 600;
+            margin-right: 4px
+        }
+
+        .transaction-overview-cont .transactions-data-wrap .transactions-chart-title .more {
+            align-items: center;
+            display: flex;
+            float: right;
+            font-size: 14px
+        }
+
+            .transaction-overview-cont .transactions-data-wrap .transactions-chart-title .more:hover {
+                color: #c53027
+            }
+
+            .transaction-overview-cont .transactions-data-wrap .transactions-chart-title .more a {
+                color: #404245
+            }
+
+            .transaction-overview-cont .transactions-data-wrap .transactions-chart-title .more .icon-more {
+                zoom: .5;
+                margin-left: 4px
+            }
+
+@media only screen and (max-width:768px) {
+    .transaction-overview-cont .transactions-data-wrap .transactions-chart-title {
+        padding: 20px 16px 0
+    }
+}
+
+.transaction-overview-cont .transactions-data-wrap .transactions-overview-chart .echarts-wrapper .echart-tooltip-wrapper {
+    padding: 0 !important
+}
+
+.transaction-overview-cont .transactions-data .flex-column {
+    align-self: flex-start;
+    flex: 1 1;
+    padding-right: 20px
+}
+
+    .transaction-overview-cont .transactions-data .flex-column:last-child {
+        padding-right: 0
+    }
+
+.transaction-overview-cont .transactions_list_overview {
+    flex: 1 1;
+    margin-right: 20px
+}
+
+    .transaction-overview-cont .transactions_list_overview .card-body {
+        background: #fff;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding: 20px
+    }
+
+        .transaction-overview-cont .transactions_list_overview .card-body:last-child {
+            margin-bottom: 0
+        }
+
+.transaction-overview-cont .transaction-chart-wrap {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-width: 275px;
+    padding: 0
+}
+
+.transaction-overview-cont-spin {
+    animation: tron-spin-animation 1s linear infinite
+}
+
+@keyframes tron-spin-animation {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(180deg)
+    }
+
+    to {
+        -webkit-transform: rotate(1turn)
+    }
+}
+
+body .token_black .transaction-overview-cont .transactions_list_overview .card-body {
+    height: auto
+}
+
+#tradingAmount:before, #txcont:before, body .token_black .transactions-list-wrapper .foundation_title div.card-body:before, body .token_black .transactions-list-wrapper .transactions_list_overview div.card-body:before {
+    background: #fff
+}
+
+@media screen and (max-width:768px) {
+    .transactions-list-wrapper .representatives-data-wrap {
+        flex-direction: column
+    }
+
+        .transactions-list-wrapper .representatives-data-wrap .representatives-data .num {
+            font-size: .6875rem
+        }
+
+        .transactions-list-wrapper .representatives-data-wrap .representatives-data .usdShow {
+            font-size: .625rem
+        }
+
+        .transactions-list-wrapper .representatives-data-wrap .representatives-data .desc {
+            font-size: 12px;
+            max-width: 100%
+        }
+
+            .transactions-list-wrapper .representatives-data-wrap .representatives-data .desc .usdValue {
+                font-size: .625rem
+            }
+
+            .transactions-list-wrapper .representatives-data-wrap .representatives-data .desc .txt {
+                max-width: 100%
+            }
+
+    .transactions-list-wrapper .transaction-list-picture-profit {
+        border-radius: 10px;
+        box-shadow: 0 20px 30px hsla(0,0%,6%,.06);
+        height: 80px;
+        margin: 0 auto 20px;
+        max-width: 375px;
+        width: 100%
+    }
+
+    .transactions-list-wrapper .contract-list-picture-profit {
+        border-radius: 10px;
+        box-shadow: 0 20px 30px hsla(0,0%,6%,.06);
+        height: 80px;
+        margin: 20px auto 4px;
+        max-width: 375px;
+        width: 100%
+    }
+
+    .transaction-overview-cont .transactions_list_overview {
+        margin: 0 0 20px
+    }
+
+        .transaction-overview-cont .transactions_list_overview .card-body {
+            padding: 20px 16px
+        }
+
+        .transaction-overview-cont .transactions_list_overview .amount-wrapper-cont .card-body {
+            padding: 10px 0 0 20px
+        }
+
+    .transactions-table-list .table-header {
+        flex-direction: column
+    }
+
+        .transactions-table-list .table-header .gap-line {
+            display: none
+        }
+
+    .transaction-chart-wrap {
+        display: block
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .transactions-list-wrapper .representatives-data-wrap .representatives-data span.TxCountNum, .transactions-list-wrapper .representatives-data-wrap .representatives-data span.volumeNum {
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .transactions-list-wrapper .representatives-data-wrap .representatives-data .usdValue {
+        font-size: 12px;
+        line-height: 18px
+    }
+
+    .row.transactions-data-wrap {
+        display: block
+    }
+
+    .hiden-scam-switch-wrap .ant-switch {
+        margin-left: 0 !important
+    }
+
+    #popupContainer .ant-tooltip {
+        max-width: 300px !important
+    }
+
+    .transaction-overview-cont .transactions-data-wrap .transactions-chart-title .more, .transaction-overview-cont .transactions-data-wrap h2 .more a {
+        font-size: 12px
+    }
+
+    .transactions-list-wrapper {
+        padding-bottom: 40px !important
+    }
+
+        .transactions-list-wrapper .ant-table-content table {
+            width: 1500px
+        }
+}
+
+.table-txn-remark-wrap .add-remark-icon {
+    color: #73787b;
+    cursor: pointer;
+    display: none;
+    font-size: 12px;
+    margin-left: 4px;
+    position: absolute;
+    right: -14px
+}
+
+    .table-txn-remark-wrap .add-remark-icon:hover {
+        color: #c23631
+    }
+
+.table-remark-content-wrap, .table-remark-content-wrap .table-remark-content {
+    align-items: center;
+    display: flex;
+    position: relative
+}
+
+    .table-remark-content-wrap .table-remark-content {
+        color: #101010;
+        font-size: 12px;
+        line-height: 18px
+    }
+
+        .table-remark-content-wrap .table-remark-content .remark-label {
+            color: #73787b;
+            flex-shrink: 0
+        }
+
+    .table-remark-content-wrap .edit-remark-icon {
+        color: #73787b;
+        cursor: pointer;
+        display: none;
+        flex-shrink: 0;
+        font-size: 10px;
+        margin-left: 4px;
+        position: absolute;
+        right: -12px
+    }
+
+        .table-remark-content-wrap .edit-remark-icon:hover {
+            color: #c23631
+        }
+
+    .table-remark-content-wrap .edit-remark-absolute-icon {
+        bottom: 4px;
+        color: #73787b;
+        font-size: 10px;
+        margin-left: 4px;
+        position: absolute;
+        right: 0;
+        visibility: hidden;
+        z-index: 0
+    }
+
+.table-remark-popover {
+    padding: 0;
+    z-index: 99 !important
+}
+
+    .table-remark-popover .ant-popover-arrow {
+        display: none
+    }
+
+    .table-remark-popover .ant-popover-inner {
+        background-color: #e0e4e8;
+        border-radius: 4px;
+        box-shadow: none;
+        padding: 0
+    }
+
+    .table-remark-popover .ant-popover-content {
+        margin-top: -24px
+    }
+
+    .table-remark-popover .ant-popover-inner-content {
+        padding: 0
+    }
+
+    .table-remark-popover .table-remark-content-popover {
+        background: #e0e4e8;
+        border-radius: 4px;
+        color: #101010;
+        display: flex;
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 600px;
+        padding: 3px 8px
+    }
+
+        .table-remark-popover .table-remark-content-popover .remark-label {
+            color: #73787b
+        }
+
+@keyframes rotateIcon {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.table-remark-popover .loading-icon {
+    animation: rotateIcon 1s linear infinite;
+    font-size: 18px;
+    padding: 3px 0
+}
+
+.table-remark-popover .remark-content-wrapper {
+    flex: 1 1;
+    position: relative
+}
+
+    .table-remark-popover .remark-content-wrapper .remark-content-box {
+        word-wrap: break-word;
+        color: #101010;
+        font-family: Lato;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0;
+        white-space: pre-wrap;
+        word-break: break-all
+    }
+
+    .table-remark-popover .remark-content-wrapper .remark-content {
+        background-color: #e0e4e8;
+        border: none;
+        color: #101010;
+        font-family: Lato;
+        font-size: 12px;
+        height: 100%;
+        left: 0;
+        line-height: 18px;
+        min-height: 18px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        resize: none;
+        top: 0;
+        width: 100%
+    }
+
+        .table-remark-popover .remark-content-wrapper .remark-content::placeholder {
+            color: #73787b
+        }
+
+        .table-remark-popover .remark-content-wrapper .remark-content:focus {
+            box-shadow: none
+        }
+
+@media screen and (max-width:768px) {
+    .table-remark-popover .table-remark-content-popover {
+        max-width: 220px
+    }
+}
+
+.token-change-type {
+    align-items: center;
+    display: inline-flex
+}
+
+    .token-change-type .icon-block-age {
+        color: #c23631;
+        margin-left: 4px
+    }
+
+.btn-text {
+    background-color: #fcf2f2;
+    border-radius: 2px;
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    min-width: 68px;
+    padding: 3px 8px;
+    text-align: center
+}
+
+.echarts-wrapper {
+    height: 100%
+}
+
+    .echarts-wrapper canvas {
+        cursor: pointer
+    }
+
+    .echarts-wrapper .echart-tooltip-wrapper {
+        background: #fff !important;
+        border-color: transparent !important;
+        border-radius: 6px !important;
+        box-shadow: 0 0 10px hsla(0,0%,6%,.05) !important;
+        display: none;
+        font-family: Lato !important;
+        min-width: 200px;
+        padding: 12px 0 !important;
+        z-index: 899 !important
+    }
+
+        .echarts-wrapper .echart-tooltip-wrapper .tooltip-date {
+            color: #91979d;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 12px;
+            padding: 0 16px
+        }
+
+        .echarts-wrapper .echart-tooltip-wrapper .divider {
+            background-color: #ededed;
+            height: 1px;
+            margin-bottom: 12px;
+            width: 100%
+        }
+
+        .echarts-wrapper .echart-tooltip-wrapper .tooltip-content {
+            color: #73787b;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 8px;
+            padding: 0 16px
+        }
+
+            .echarts-wrapper .echart-tooltip-wrapper .tooltip-content:last-child {
+                margin-bottom: 0
+            }
+
+            .echarts-wrapper .echart-tooltip-wrapper .tooltip-content .font-highlight, .echarts-wrapper .echart-tooltip-wrapper .tooltip-content.font-highlight {
+                color: #101010;
+                font-weight: 600
+            }
+
+            .echarts-wrapper .echart-tooltip-wrapper .tooltip-content b {
+                color: #101010;
+                font-weight: 400;
+                margin-left: 20px
+            }
+
+                .echarts-wrapper .echart-tooltip-wrapper .tooltip-content b.font-highlight {
+                    font-weight: 600
+                }
+
+            .echarts-wrapper .echart-tooltip-wrapper .tooltip-content i {
+                border-radius: 50%;
+                display: block;
+                height: 6px;
+                margin-right: 6px;
+                width: 6px
+            }
+
+        .echarts-wrapper .echart-tooltip-wrapper .chart-tooltip-div-date {
+            color: #91979d;
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 12px;
+            padding: 0 16px
+        }
+
+        .echarts-wrapper .echart-tooltip-wrapper .chart-tooltip-div-divider {
+            background-color: #ededed;
+            height: 1px;
+            margin-bottom: 12px;
+            width: 100%
+        }
+
+        .echarts-wrapper .echart-tooltip-wrapper .chart-tooltip-div-item {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 8px;
+            margin-top: 8px;
+            padding: 0 16px
+        }
+
+            .echarts-wrapper .echart-tooltip-wrapper .chart-tooltip-div-item:first-child {
+                margin-top: 0
+            }
+
+            .echarts-wrapper .echart-tooltip-wrapper .chart-tooltip-div-item:last-child {
+                margin-bottom: 0
+            }
+
+        .echarts-wrapper .echart-tooltip-wrapper .chart-tooltip-div-item-symbol {
+            border-radius: 50%;
+            display: inline-block;
+            height: 8px;
+            margin-right: 8px;
+            width: 8px
+        }
+
+        .echarts-wrapper .echart-tooltip-wrapper .chart-tooltip-div-item-name {
+            color: #73787b;
+            display: inline-block;
+            margin-right: 6px
+        }
+
+        .echarts-wrapper .echart-tooltip-wrapper .chart-tooltip-div-item-number {
+            color: #101010;
+            display: inline-block
+        }
+
+@media screen and (max-width:768px) {
+    .echarts-wrapper .echart-tooltip-wrapper {
+        display: none
+    }
+}
+
+.echarts-wrapper .echarts-slider-thumb {
+    height: 30px;
+    width: 20px
+}
+
+.advanced-filter-button {
+    align-items: center;
+    background: #edf0f4;
+    border-radius: 8px;
+    color: #101010;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 400;
+    justify-content: center;
+    padding: 4px 8px;
+    white-space: nowrap
+}
+
+    .advanced-filter-button:hover {
+        background: #f9ebea;
+        color: #c23631
+    }
+
+    .advanced-filter-button.highlight {
+        background: #ede8e4;
+        color: #7f471c
+    }
+
+    .advanced-filter-button .filter-icon {
+        font-size: 14px;
+        margin-right: 4px
+    }
+
+@media screen and (max-width:768px) {
+    .advanced-filter-button {
+        line-height: 18px;
+        margin-top: 12px
+    }
+}
+
+.table-filter-button-wrapper .icon-box-wrapper {
+    background: #edf0f4;
+    border-radius: 8px;
+    color: #101010;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    padding: 6px 8px
+}
+
+    .table-filter-button-wrapper .icon-box-wrapper.active, .table-filter-button-wrapper .icon-box-wrapper:hover {
+        background: #ffeeed;
+        color: #c23631
+    }
+
+.table-filter-dropdown-wrapper {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 30px hsla(0,0%,6%,.08);
+    min-width: 259px !important;
+    padding: 20px
+}
+
+    .table-filter-dropdown-wrapper .commit-btn-wrapper > span {
+        background-color: #fff;
+        border: 1px solid #000;
+        border-radius: 4px;
+        cursor: pointer;
+        display: block;
+        font-size: 12px;
+        line-height: 20px;
+        margin: 0 10px;
+        padding: 2px 0;
+        text-align: center;
+        width: 100px
+    }
+
+        .table-filter-dropdown-wrapper .commit-btn-wrapper > span.active {
+            background: #101010;
+            color: #fff
+        }
+
+        .table-filter-dropdown-wrapper .commit-btn-wrapper > span:hover {
+            border: 1px solid #c23631;
+            color: #c23631
+        }
+
+            .table-filter-dropdown-wrapper .commit-btn-wrapper > span:hover.active {
+                background: #c23631;
+                color: #fff
+            }
+
+    .table-filter-dropdown-wrapper .ant-form-item, .table-filter-dropdown-wrapper .ant-form > div:last-child {
+        margin-bottom: 0 !important
+    }
+
+    .table-filter-dropdown-wrapper .ant-form-item-control-input {
+        min-height: auto
+    }
+
+    .table-filter-dropdown-wrapper .commit-btn-wrapper {
+        margin-top: 30px
+    }
+
+.form-switch-item-wrapper {
+    margin-bottom: 18px
+}
+
+    .form-switch-item-wrapper .item-text {
+        color: #101010;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 6px
+    }
+
+    .form-switch-item-wrapper .left-text-wrapper {
+        margin-right: 10px
+    }
+
+    .form-switch-item-wrapper .ant-switch {
+        background-color: #e7e7e7;
+        height: 15px;
+        line-height: 15px;
+        min-width: 30px
+    }
+
+        .form-switch-item-wrapper .ant-switch .ant-switch-handle {
+            height: 11px;
+            top: 1.5px;
+            width: 11px
+        }
+
+        .form-switch-item-wrapper .ant-switch .ant-switch-inner {
+            width: auto
+        }
+
+        .form-switch-item-wrapper .ant-switch.ant-switch-checked {
+            background-color: #3cc31b
+        }
+
+            .form-switch-item-wrapper .ant-switch.ant-switch-checked .ant-switch-handle {
+                left: calc(100% - 12.5px)
+            }
+
+            .form-switch-item-wrapper .ant-switch.ant-switch-checked.ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+                background: #3cc31b
+            }
+
+        .form-switch-item-wrapper .ant-switch .ant-click-animating-node {
+            box-shadow: none !important
+        }
+
+    .form-switch-item-wrapper .ant-form-item-control {
+        line-height: 1
+    }
+
+
+/*transaction style */
+
+.volumeNum {
+    display: inline-block;
+}
+
+.transactions-overview-chart {
+    flex: 1 1 0%;
+}
+
+    .transactions-overview-chart .card {
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        overflow: hidden;
+        width: 100%;
+        padding: 0px;
+    }
+
+        .transactions-overview-chart .card .bg-tron-light {
+            border: 0px;
+        }
+
+.chart-new-style {
+    height: 274px;
+    width: auto;
+    margin: 0px auto;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+
+    .chart-new-style div {
+        position: relative;
+        width: 545px;
+        height: 274px;
+        padding: 0px;
+        margin: 0px;
+        border-width: 0px;
+    }
+.records {
+    color: rgb(16, 16, 16);
+}
+.w-16{
+    width:16px;
+
+}
+.w-140px{
+    width:140px;
+}
+.w-170px{
+    width:170px;
+}
+.w-55px{
+    width:55px;
+
+}
+.w-250px{
+    width:250px;
+
+}
+.w-190px{
+    width:190px;
+}
+.w-80px{
+    width:80px;
+}
+.w-120px {
+    width:120px;
+}
+.table-txn-remark-wrap{
+    width:120px;
+}
+.see-txn-detail {
+    cursor: default;
+}
+.td-left{
+    text-align:left;
+}.td-right{
+    text-align:right;
+}
+ .td-center{
+     text-align:center;
+ }
+
+.ln-22px {
+    line-height: 22px;
+}
+.token-span {
+    display: inline-block;
+    width: 14px;
+    margin-left: 3px;
+}
+.table-remark-content{
+    max-width:120px;
+}
+.text-capitalize{
+    text-transform:capitalize;
+}
+.mr-4px{
+    margin-right:4px;
+}

@@ -1,0 +1,1904 @@
+.up {
+    color: #2d912c
+}
+
+.down {
+    color: #c23631
+}
+
+.language-zh, .language-zh_Hant {
+    font-family: PingFangSC-Regular
+}
+
+.language-en {
+    font-family: lato
+}
+
+.vote-content.vote-overview {
+    position: relative
+}
+
+    .vote-content.vote-overview .ant-table-measure-row td {
+        padding: 0 !important
+    }
+
+    .vote-content.vote-overview .card.vote-card {
+        border: none;
+        border-radius: 10px;
+        padding: 14px 20px 0
+    }
+
+        .vote-content.vote-overview .card.vote-card .card-body {
+            border-bottom: none;
+            padding: 0 0 14px
+        }
+
+    .vote-content.vote-overview .title-sub {
+        color: #c23631;
+        cursor: pointer;
+        font-size: 12px;
+        line-height: 20px;
+        position: absolute;
+        right: 15px;
+        top: -26px
+    }
+
+        .vote-content.vote-overview .title-sub:after {
+            background-image: url(/static/media/arrow-right.74cd67c03a60f8bc77aa.svg);
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            content: "";
+            display: inline-block;
+            height: 8px;
+            margin-left: 6px;
+            width: 5px
+        }
+
+        .vote-content.vote-overview .title-sub:hover {
+            color: #912925
+        }
+
+            .vote-content.vote-overview .title-sub:hover:after {
+                background-image: url(/static/media/arrow-right-hover.3cf4f14eb4f2ba4e765c.svg)
+            }
+
+    .vote-content.vote-overview .card.table_pos {
+        border: none
+    }
+
+    .vote-content.vote-overview .input-wrap {
+        justify-content: flex-end
+    }
+
+    .vote-content.vote-overview .input-group1 {
+        background: #f6f7fb;
+        border-radius: 5px;
+        max-width: 140px;
+        min-width: 100px;
+        overflow: hidden
+    }
+
+        .vote-content.vote-overview .input-group1:hover {
+            border: .4px solid #c2c9d1
+        }
+
+        .vote-content.vote-overview .input-group1 .btn-outline-danger, .vote-content.vote-overview .input-group1 .btn-outline-danger:not(:disabled):not(.disabled):active, .vote-content.vote-overview .input-group1 .btn-outline-success, .vote-content.vote-overview .input-group1 .btn-outline-success:not(:disabled):not(.disabled):active, .vote-content.vote-overview .input-group1 .form-control {
+            background: #f6f7fb;
+            border: none;
+            color: #101010;
+            padding: .375rem .5rem
+        }
+
+    .vote-content.vote-overview .input-max {
+        color: #c23631;
+        cursor: pointer;
+        line-height: 35px;
+        margin-right: 10px
+    }
+
+    .vote-content.vote-overview .vote-overview-search {
+        align-items: center;
+        border: .7px solid #e0e4e8;
+        border-radius: 10px;
+        height: 32px
+    }
+
+        .vote-content.vote-overview .vote-overview-search input {
+            border: none;
+            border-radius: 10px;
+            padding-left: 0;
+            padding-right: 10px;
+            width: 300px
+        }
+
+        .vote-content.vote-overview .vote-overview-search img:first-child {
+            height: 14px;
+            margin: 0 8px 0 14px;
+            width: 14px
+        }
+
+        .vote-content.vote-overview .vote-overview-search img:last-child {
+            margin: 0 14px 0 8px
+        }
+
+    .vote-content.vote-overview .action-btn {
+        align-items: center;
+        background: #101010;
+        border-radius: 5px !important;
+        color: #fff;
+        display: flex;
+        font-size: 12px;
+        height: 32px;
+        line-height: 32px;
+        mix-blend-mode: normal;
+        padding: 0 14px !important
+    }
+
+        .vote-content.vote-overview .action-btn:hover {
+            background-color: #c23631
+        }
+
+        .vote-content.vote-overview .action-btn img {
+            margin-right: 8px
+        }
+
+        .vote-content.vote-overview .action-btn.cancel {
+            background-color: #f0f2f3;
+            color: #101010;
+            margin-left: 10px
+        }
+
+            .vote-content.vote-overview .action-btn.cancel:hover {
+                color: #c23631
+            }
+
+        .vote-content.vote-overview .action-btn.confirm {
+            background-color: #101010;
+            color: #fff;
+            margin-left: 14px
+        }
+
+            .vote-content.vote-overview .action-btn.confirm:hover {
+                background-color: #c23631;
+                color: #fff
+            }
+
+            .vote-content.vote-overview .action-btn.confirm.disabled {
+                background: #f0f2f3;
+                color: #c2c9d1;
+                cursor: not-allowed;
+                opacity: 1
+            }
+
+    .vote-content.vote-overview .switch-token.card-title {
+        --antd-wave-shadow-color: #101010 !important
+    }
+
+        .vote-content.vote-overview .switch-token.card-title p {
+            margin-bottom: 0
+        }
+
+        .vote-content.vote-overview .switch-token.card-title .ant-switch {
+            background-color: #c2c9d1;
+            margin-top: 3px;
+            width: 35px
+        }
+
+            .vote-content.vote-overview .switch-token.card-title .ant-switch.ant-switch-checked {
+                background-color: #101010
+            }
+
+    .vote-content.vote-overview .vote-overview-action-status {
+        color: #101010;
+        margin-left: 20px
+    }
+
+        .vote-content.vote-overview .vote-overview-action-status img {
+            margin-right: 6px
+        }
+
+        .vote-content.vote-overview .vote-overview-action-status .balance {
+            color: #91979d
+        }
+
+    .vote-content.vote-overview .reset {
+        color: #c23631;
+        cursor: pointer;
+        font-size: 14px;
+        padding-right: 20px
+    }
+
+    .vote-content.vote-overview .vote-quick {
+        align-items: center;
+        display: flex;
+        margin-left: 0 !important;
+        margin-right: 10px
+    }
+
+    .vote-content.vote-overview .ant-table-thead > tr > th {
+        background: #f6f7fb !important
+    }
+
+    .vote-content.vote-overview .sort-icon {
+        cursor: pointer
+    }
+
+        .vote-content.vote-overview .sort-icon img {
+            margin-bottom: 2px
+        }
+
+    .vote-content.vote-overview .white-space-wrap {
+        /*white-space: pre-wrap*/
+    }
+
+    .vote-content.vote-overview .cusor-pointer {
+        cursor: pointer
+    }
+
+    .vote-content.vote-overview .sr-name a {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap
+    }
+
+    .vote-content.vote-overview .line {
+        background: #e7e7e7;
+        border-radius: 10px;
+        height: 20px;
+        margin: 0 12px;
+        width: 1px
+    }
+
+    .vote-content.vote-overview .ant-table-tbody {
+        font-family: lato
+    }
+
+    .vote-content.vote-overview .table_new_style .ant-table table .ant-table-tbody > tr > td.defaultvote {
+        padding-right: 20px !important
+    }
+
+    .vote-content.vote-overview .ant-pagination-item, .vote-content.vote-overview .ant-pagination-jump-next, .vote-content.vote-overview .ant-pagination-jump-prev, .vote-content.vote-overview .ant-pagination-next, .vote-content.vote-overview .ant-pagination-next .ant-pagination-item-link, .vote-content.vote-overview .ant-pagination-prev, .vote-content.vote-overview .ant-pagination-prev .ant-pagination-item-link, .vote-content.vote-overview .ant-select-selection {
+        border: 1px solid #eee;
+        border-radius: 5px;
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+        min-width: 30px
+    }
+
+    .vote-content.vote-overview .ant-pagination-item-active:focus a, .vote-content.vote-overview .ant-pagination-item-active:hover a {
+        color: #fff
+    }
+
+    .vote-content.vote-overview .ant-table .sr .grey .react-contextmenu-wrapper a {
+        color: #91979d !important
+    }
+
+    .vote-content.vote-overview .ant-table .sr .grey .react-contextmenu .dropdown-item a {
+        color: #101010 !important
+    }
+
+    .vote-content.vote-overview._voteOverview ._badge .overview-info-desc .overview-num a {
+        color: #101010;
+        font-size: 16px
+    }
+
+.sweet-alert-new.table_new_style .total-number {
+    color: #101010;
+    font-size: 14px;
+    margin: 20px 0 14px;
+    text-align: left
+}
+
+    .sweet-alert-new.table_new_style .ant-table td span, .sweet-alert-new.table_new_style .ant-table th span, .sweet-alert-new.table_new_style .total-number span {
+        font-size: 14px
+    }
+
+.sweet-alert-new.table_new_style .ant-table table tr td, .sweet-alert-new.table_new_style .ant-table table tr th {
+    background: #f6f7fb !important
+}
+
+.sweet-alert-new.table_new_style .ant-table table tr:first-child th:first-child, .sweet-alert-new.table_new_style .ant-table table tr:first-child th:last-child {
+    border-radius: 0
+}
+
+.sweet-alert-new.table_new_style .ant-table-ping-left:not(.ant-table-has-fix-left) .ant-table-container {
+    border-radius: 10px;
+    overflow: hidden
+}
+
+.sweet-alert-new.table_new_style .ant-table table .ant-table-tbody tr td:last-child {
+    padding-right: 20px !important
+}
+
+.sweet-alert-new.table_new_style .ant-table-container {
+    border-radius: 10px;
+    overflow: hidden
+}
+
+.sweet-alert-new.table_new_style .ant-table table .ant-table-tbody > tr:last-child > td {
+    border-bottom: 0
+}
+
+.sweet-alert-new.table_new_style .ant-table table .ant-table-thead > tr > th {
+    padding-bottom: 0
+}
+
+.sweet-alert-new.to-sign .alert-confirm-btn {
+    background: #c2c9d1 !important
+}
+
+.vote-address-all {
+    display: inline-flex
+}
+
+@media (max-width:768px) {
+    .vote-content.vote-overview {
+        padding-bottom: 40px
+    }
+
+        .vote-content.vote-overview .switch-token.card-title p {
+            white-space: nowrap
+        }
+
+        .vote-content.vote-overview .switch-token {
+            margin-left: 14px !important
+        }
+
+        .vote-content.vote-overview .white-space-wrap, .vote-overview .vote-overview-action-wrap button.action-btn {
+            white-space: nowrap
+        }
+
+    .vote-overview .vote-overview-action-wrap .vote-overview-action {
+        flex-direction: row !important
+    }
+
+    .vote-overview-action-status .d-flex.align-items-center {
+        flex-wrap: nowrap;
+        white-space: nowrap
+    }
+
+    .vote-content.vote-overview .reset {
+        padding-right: 10px;
+        white-space: nowrap
+    }
+
+    .card-body.bg-white > div {
+        flex-wrap: wrap
+    }
+
+        .card-body.bg-white > div .top-20 {
+            margin-top: 15px
+        }
+
+    .mobile-100, .vote-content.vote-overview .vote-overview-search input {
+        width: 100%
+    }
+
+    .vote-overview-action .top-20:first-child {
+        margin-top: 0 !important
+    }
+
+    .vote-content.vote-overview .action-btn.cancel {
+        margin-right: 0
+    }
+}
+
+.vote-overview .table_new_style.voting-table .ant-table {
+    overflow-x: auto
+}
+
+    .vote-overview .table_new_style.voting-table .ant-table table .ant-table-thead > tr > th {
+        padding: 9px 10px
+    }
+
+    .vote-overview .table_new_style.voting-table .ant-table table tr td {
+        padding: 14px 10px !important
+    }
+
+.sweet-alert-new.no-vote-alert {
+    position: relative
+}
+
+    .sweet-alert-new.no-vote-alert.sweet-alert-new-500 {
+        width: 500px !important
+    }
+
+    .sweet-alert-new.no-vote-alert .text-muted.lead {
+        margin-top: 0
+    }
+
+    .sweet-alert-new.no-vote-alert h2 {
+        color: #101010;
+        font-size: 20px;
+        font-weight: 700
+    }
+
+    .sweet-alert-new.no-vote-alert .img-content {
+        display: block;
+        margin: 30px auto;
+        width: 60px
+    }
+
+    .sweet-alert-new.no-vote-alert .to-stake {
+        color: #c23631 !important;
+        display: block;
+        font-size: 16px;
+        margin-top: 15px
+    }
+
+    .sweet-alert-new.no-vote-alert h3 {
+        color: #101010;
+        font-size: 22px
+    }
+
+    .sweet-alert-new.no-vote-alert .modal-name a {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%
+    }
+
+    .sweet-alert-new.no-vote-alert .close {
+        cursor: pointer;
+        height: 12px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        width: 12px
+    }
+
+.sweet-alert-new.disable-vote-alert .alert-confirm-btn {
+    cursor: not-allowed
+}
+
+    .sweet-alert-new.disable-vote-alert .alert-confirm-btn:hover {
+        background: #c2c9d1 !important
+    }
+
+@media screen and (max-width:768px) {
+    .sweet-alert-new.vote-list-alert {
+        padding: 20px 15px !important
+    }
+}
+
+.ant-form-item-control {
+    min-width: 100% !important
+}
+
+.ant-form-item {
+    margin-bottom: 20px
+}
+
+    .ant-form-item .ant-form-item-label {
+        color: #404245;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 0 0 12px;
+        text-align: start
+    }
+
+        .ant-form-item .ant-form-item-label > label {
+            color: #404245;
+            height: 20px
+        }
+
+        .ant-form-item .ant-form-item-label .label-desc {
+            color: #73787b;
+            font-size: 12px;
+            margin-left: 4px
+        }
+
+        .ant-form-item .ant-form-item-label > .ant-form-item-required {
+            padding-left: 12px
+        }
+
+        .ant-form-item .ant-form-item-label > label:before {
+            color: #c23631 !important;
+            font-family: Lato !important;
+            font-size: 18px !important;
+            left: 0;
+            position: absolute;
+            top: 5px
+        }
+
+    .ant-form-item .ant-input, .ant-form-item .ant-input-number-input, .ant-form-item .ant-picker, .ant-form-item .ant-radio-button-wrapper, .ant-form-item .ant-select-selector {
+        border: 1px solid #c2c9d1;
+        border-radius: 10px;
+        color: #101010;
+        height: 40px;
+        padding: 0 16px
+    }
+
+        .ant-form-item .ant-input-number-input::placeholder, .ant-form-item .ant-input::placeholder, .ant-form-item .ant-picker::placeholder, .ant-form-item .ant-radio-button-wrapper::placeholder, .ant-form-item .ant-select-selector::placeholder {
+            color: #91979d
+        }
+
+    .ant-form-item input:-internal-autofill-previewed, .ant-form-item input:-internal-autofill-selected {
+        transition: background-color 5000s ease-in-out 0s !important
+    }
+
+    .ant-form-item .ant-input-focused, .ant-form-item .ant-input-number-focused, .ant-form-item .ant-input-number-input:focus, .ant-form-item .ant-input:focus, .ant-form-item .ant-picker-focused, .ant-form-item .ant-picker:hover, .ant-form-item .ant-select-open .ant-select-selector {
+        border-color: #73787b !important;
+        box-shadow: none
+    }
+
+    .ant-form-item .ant-select .ant-select-arrow .icon {
+        color: #91979d;
+        font-size: 10px
+    }
+
+    .ant-form-item .ant-select-open .ant-select-arrow .icon {
+        color: #101010
+    }
+
+    .ant-form-item .ant-input[disabled] {
+        background-color: #f0f2f3;
+        border-color: #e0e4e8;
+        color: #73787b
+    }
+
+    .ant-form-item .ant-select-dropdown {
+        background: #fff;
+        border: 1px solid #ededed;
+        border-radius: 10px;
+        box-shadow: 0 5px 20px hsla(0,0%,6%,.05);
+        padding: 8px 0;
+        top: 48px !important
+    }
+
+    .ant-form-item .ant-select-item {
+        color: #101010;
+        line-height: 18px;
+        padding: 8px 16px
+    }
+
+    .ant-form-item .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+        background-color: #fff;
+        color: #b7b7b7;
+        font-weight: 400
+    }
+
+    .ant-form-item .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+        background-color: #f9f9fa;
+        color: #c23631
+    }
+
+    .ant-form-item .ant-checkbox-inner {
+        border: 1px solid #c2c9d1;
+        border-radius: 4px
+    }
+
+    .ant-form-item .ant-checkbox-checked:after {
+        border: none
+    }
+
+    .ant-form-item .ant-checkbox-checked .ant-checkbox-inner {
+        background-color: #404245;
+        border: none
+    }
+
+    .ant-form-item .ant-checkbox + span {
+        padding-left: 4px
+    }
+
+    .ant-form-item .ant-select-arrow, .ant-form-item .ant-select-clear {
+        right: 16px
+    }
+
+        .ant-form-item .ant-select-clear .anticon {
+            vertical-align: middle
+        }
+
+    .ant-form-item .ant-select-selector .ant-select-selection-item {
+        color: #101010;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 40px;
+        line-height: 38px
+    }
+
+    .ant-form-item .ant-select-status-error.ant-select:not(.ant-select-disabled):not(.ant-select-customize-input) .ant-select-selector {
+        border-color: #e09b98 !important
+    }
+
+    .ant-form-item .ant-select-focused:not(.ant-select-disabled):not(.ant-select-customize-input) .ant-select-selector {
+        border-color: #c2c9d1
+    }
+
+    .ant-form-item .ant-select-selection-search-input {
+        height: 38px
+    }
+
+    .ant-form-item .ant-input-status-error {
+        border-color: #e09b98
+    }
+
+        .ant-form-item .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:focus, .ant-form-item .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover {
+            border-color: #e09b98;
+            box-shadow: none
+        }
+
+    .ant-form-item .ant-form-item-explain-error {
+        color: #404245;
+        color: #c23631;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px
+    }
+
+    .ant-form-item .ant-select-selection-placeholder {
+        color: #404245;
+        color: #91979d;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 38px !important;
+        line-height: 20px
+    }
+
+    .ant-form-item .ant-checkbox-wrapper {
+        color: #404245;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 10px
+    }
+
+    .ant-form-item .ant-upload {
+        background: #f6f7fb;
+        border: 0;
+        border-radius: 6px;
+        mix-blend-mode: normal
+    }
+
+    .ant-form-item textarea.ant-input {
+        height: 100px;
+        padding: 12px 16px;
+        resize: none
+    }
+
+    .ant-form-item .ant-radio-button-wrapper {
+        line-height: 38px;
+        margin-bottom: 12px;
+        margin-right: 16px
+    }
+
+    .ant-form-item .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+        background-color: #fff;
+        border-color: #c23631;
+        box-shadow: none;
+        color: #c23631 !important
+    }
+
+    .ant-form-item .ant-radio-button-wrapper:not(:first-child):before {
+        display: none
+    }
+
+    .ant-form-item .ant-btn-primary[disabled]:hover {
+        background-color: #c2c9d1
+    }
+
+@media screen and (max-width:768px) {
+    .ant-form-item textarea.ant-input {
+        height: 120px
+    }
+
+    .ant-form-item .ant-upload {
+        margin-bottom: 10px
+    }
+}
+
+.ant-form-item .ant-dropdown .ant-dropdown-menu {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px hsla(0,0%,6%,.06);
+    padding: 10px
+}
+
+.ant-form-item .ant-dropdown .ant-dropdown-menu-item {
+    color: #101010;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px
+}
+
+    .ant-form-item .ant-dropdown .ant-dropdown-menu-item.active-item {
+        color: #c23631
+    }
+
+    .ant-form-item .ant-dropdown .ant-dropdown-menu-item:hover {
+        background: linear-gradient(0deg,hsla(0,0%,100%,.9),hsla(0,0%,100%,.9)),#c2c9d1;
+        border-radius: 10px;
+        color: #c23631
+    }
+
+.ant-form-item .ant-radio-wrapper-in-form-item span {
+    color: #101010;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px
+}
+
+.ant-form-item .ant-radio-inner {
+    border-color: #c2c9d1
+}
+
+.ant-form-item .ant-radio-input:focus + .ant-radio-inner, .ant-form-item .ant-radio-wrapper .ant-radio-checked .ant-radio-inner, .ant-form-item .ant-radio-wrapper:hover .ant-radio, .ant-form-item .ant-radio:hover .ant-radio-inner {
+    border-color: #404245
+}
+
+.ant-form-item .ant-radio-wrapper .ant-radio-inner:after {
+    background-color: #404245
+}
+
+.ant-form-item .ant-radio-input:focus + .ant-radio-inner {
+    box-shadow: none
+}
+
+.ant-form-item .ant-radio-checked:after {
+    border-color: #404245
+}
+
+.proxy-resource-modal .ant-modal-title .title-icon {
+    background: linear-gradient(90deg,#ff8038,#ffa928);
+    border-radius: 10px;
+    border-bottom-left-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-left: 4px;
+    padding: 4px 8px
+}
+
+.proxy-resource-modal .ant-modal-title .more-link {
+    color: #c23631;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px
+}
+
+.proxy-resource-modal .ant-modal-header {
+    padding-bottom: 30px
+}
+
+.proxy-resource-modal .ant-form-item .ant-form-item-label > label {
+    color: #101010;
+    font-weight: 500
+}
+
+.proxy-resource-modal .resource-type {
+    margin-bottom: 8px
+}
+
+    .proxy-resource-modal .resource-type .ant-radio-group {
+        display: flex
+    }
+
+        .proxy-resource-modal .resource-type .ant-radio-group .ant-radio-button-wrapper {
+            flex: 1 1
+        }
+
+            .proxy-resource-modal .resource-type .ant-radio-group .ant-radio-button-wrapper.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+                border-color: #c23631 !important
+            }
+
+            .proxy-resource-modal .resource-type .ant-radio-group .ant-radio-button-wrapper:last-child {
+                margin-right: 0
+            }
+
+    .proxy-resource-modal .resource-type .tron-icon {
+        margin-right: 8px
+    }
+
+.proxy-resource-modal .pledge-count label {
+    width: 100%
+}
+
+.proxy-resource-modal .pledge-count .switch-icon {
+    cursor: pointer
+}
+
+.proxy-resource-modal .ant-input-affix-wrapper {
+    border: 1px solid #c2c9d1;
+    border-radius: 10px;
+    padding: 0 16px
+}
+
+    .proxy-resource-modal .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+        border-color: #73787b
+    }
+
+.proxy-resource-modal .form-buttons {
+    margin-bottom: 0 !important
+}
+
+    .proxy-resource-modal .form-buttons .ant-form-item-control {
+        align-items: center
+    }
+
+    .proxy-resource-modal .form-buttons .ant-form-item-control-input {
+        max-width: 440px;
+        width: 100% !important
+    }
+
+.proxy-resource-modal .lock-date-form {
+    background: #f9fafa;
+    border-radius: 10px;
+    padding: 12px 15px
+}
+
+    .proxy-resource-modal .lock-date-form .ant-switch {
+        background-color: #c2c9d1;
+        box-shadow: none;
+        height: 15px;
+        line-height: 15px;
+        width: 30px
+    }
+
+    .proxy-resource-modal .lock-date-form .ant-switch-handle {
+        left: 1.5px;
+        top: 1.5px
+    }
+
+    .proxy-resource-modal .lock-date-form .ant-switch-small.ant-switch-checked .ant-switch-handle {
+        left: calc(100% - 13.5px)
+    }
+
+    .proxy-resource-modal .lock-date-form .ant-click-animating-node {
+        box-shadow: none !important
+    }
+
+    .proxy-resource-modal .lock-date-form .ant-switch-checked {
+        background-color: #3cc13b
+    }
+
+.proxy-resource-modal .form-submit-button {
+    background: #101010;
+    border: none;
+    border-radius: 10px;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    margin-top: 40px;
+    max-width: 440px;
+    width: 100%
+}
+
+    .proxy-resource-modal .form-submit-button:hover {
+        background-color: #c23631
+    }
+
+    .proxy-resource-modal .form-submit-button .ant-btn-loading-icon .anticon {
+        vertical-align: 1px
+    }
+
+    .proxy-resource-modal .form-submit-button.ant-btn-loading:before {
+        opacity: .1
+    }
+
+.proxy-resource-modal .form-address-tags-wrap {
+    align-items: center;
+    display: flex
+}
+
+    .proxy-resource-modal .form-address-tags-wrap .form-address-tag {
+        background: #f0f2f3;
+        border-radius: 4px;
+        color: #404245;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        margin-top: 10px;
+        max-width: 160px;
+        padding: 5px 8px
+    }
+
+    .proxy-resource-modal .form-address-tags-wrap .form-public-tag {
+        margin-right: 12px
+    }
+
+    .proxy-resource-modal .form-address-tags-wrap .form-private-tag {
+        align-items: center;
+        display: flex
+    }
+
+.proxy-resource-modal .form-disabled-submit-button {
+    background: #c2c9d1
+}
+
+.proxy-resource-modal .ant-input-status-error:not(.ant-input-disabled):not(.ant-input-borderless).ant-input {
+    border-color: #c23631 !important
+}
+
+.proxy-resource-modal .lockDay {
+    margin-bottom: 0
+}
+
+.proxy-resource-modal .emptyBox {
+    margin-top: 8px
+}
+
+.resource-success-modal .notice-border-btn {
+    margin-top: 12px
+}
+
+.resource-success-modal .notice-btn.notice-get-resource-btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    line-height: 24px
+}
+
+    .resource-success-modal .notice-btn.notice-get-resource-btn .notice-value {
+        font-size: 12px;
+        line-height: 23px
+    }
+
+.resource-success-modal .result-detail {
+    color: #73787b;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: center
+}
+
+.resource-success-modal .to-transation {
+    color: #c23631;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+    text-align: center
+}
+
+.resource-success-modal .cancelUnlockTrx-btns > div:last-child {
+    background-color: #fff;
+    border: 1px solid #101010;
+    color: #101010;
+    margin-top: 12px
+}
+
+    .resource-success-modal .cancelUnlockTrx-btns > div:last-child:hover {
+        border: 1px solid #c23631;
+        color: #c23631
+    }
+
+.resource-success-modal .cancelUnlockTrx-btns > div .small-text {
+    font-size: 12px;
+    margin-left: 8px;
+    vertical-align: middle
+}
+
+.get-resource-modal .ant-modal-title .title-icon {
+    background: linear-gradient(90deg,#ff8038,#ffa928);
+    border-radius: 10px;
+    border-bottom-left-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-left: 4px;
+    padding: 4px 8px
+}
+
+.get-resource-modal .ant-modal-title .more-link {
+    color: #c23631;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 8px
+}
+
+.get-resource-modal .ant-modal-header {
+    padding-bottom: 30px
+}
+
+.get-resource-modal .ant-form-item .ant-form-item-label > label {
+    color: #101010;
+    font-weight: 500
+}
+
+.get-resource-modal .resource-type {
+    margin-bottom: 20px
+}
+
+    .get-resource-modal .resource-type .ant-radio-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%
+    }
+
+        .get-resource-modal .resource-type .ant-radio-group .ant-radio-button-wrapper {
+            height: 40px;
+            line-height: 40px;
+            margin-bottom: 0;
+            min-width: 208px;
+            padding: 0
+        }
+
+            .get-resource-modal .resource-type .ant-radio-group .ant-radio-button-wrapper.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+                border-color: #c23631 !important
+            }
+
+            .get-resource-modal .resource-type .ant-radio-group .ant-radio-button-wrapper:last-child {
+                margin-right: 0
+            }
+
+    .get-resource-modal .resource-type .tron-icon {
+        margin-right: 8px
+    }
+
+.get-resource-modal .pledge-count label {
+    width: 100%
+}
+
+.get-resource-modal .pledge-count .switch-icon {
+    cursor: pointer
+}
+
+.get-resource-modal .ant-input-affix-wrapper {
+    border: 1px solid #c2c9d1;
+    border-radius: 10px;
+    padding: 0 16px
+}
+
+    .get-resource-modal .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+        border-color: #73787b
+    }
+
+.get-resource-modal .form-buttons {
+    margin-bottom: 0 !important
+}
+
+    .get-resource-modal .form-buttons .ant-form-item-control {
+        align-items: center
+    }
+
+    .get-resource-modal .form-buttons .ant-form-item-control-input {
+        max-width: 440px;
+        width: 100% !important
+    }
+
+    .get-resource-modal .form-buttons .ant-btn-loading-icon .anticon {
+        vertical-align: 1px
+    }
+
+.get-resource-modal .ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    background-color: #c23631
+}
+
+.get-resource-modal .form-submit-button {
+    background: #101010;
+    border: none;
+    border-radius: 10px;
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    margin-top: 15px;
+    max-width: 440px;
+    width: 100%
+}
+
+    .get-resource-modal .form-submit-button.ant-btn:before {
+        opacity: .1
+    }
+
+.get-resource-modal .form-disabled-submit-button {
+    background: #c2c9d1
+}
+
+.get-resource-modal .ant-form-item .ant-input[disabled] {
+    color: #91979d
+}
+
+.get-resource-modal .unlock-tips {
+    color: #73787b;
+    font-size: 14px;
+    margin-top: 8px
+}
+
+@media screen and (max-width:768px) {
+    .get-resource-modal .resource-type .ant-radio-group .ant-radio-button-wrapper {
+        margin-bottom: 10px
+    }
+}
+
+.flag-fraud-sr-tip {
+    background: rgba(194,54,49,.1);
+    border-radius: 4px;
+    color: #c23631;
+    cursor: text;
+    margin-left: 10px;
+    padding: 2px 10px
+}
+
+    .flag-fraud-sr-tip .icon-warning_icon {
+        font-size: 12px;
+        margin-right: 5px
+    }
+
+    .flag-fraud-sr-tip .impostor {
+        color: #c23631;
+        font-size: 12px;
+        line-height: 18px
+    }
+
+.vote-base-wrap.base-wrap {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    padding: 0 15px
+}
+
+.vote-base-wrap .base-overview {
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    height: 171px;
+    padding: 20px;
+    width: 664px
+}
+
+.vote-base-wrap .overview-info {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column
+}
+
+    .vote-base-wrap .overview-info .overview-info-item {
+        display: flex;
+        flex: 1 1;
+        flex-shrink: 0;
+        justify-content: flex-start
+    }
+
+        .vote-base-wrap .overview-info .overview-info-item.overview-info-realtime {
+            align-items: flex-start;
+            border-bottom: .5px dashed #e0e4e8
+        }
+
+        .vote-base-wrap .overview-info .overview-info-item.overview-info-add {
+            align-items: flex-end
+        }
+
+        .vote-base-wrap .overview-info .overview-info-item img {
+            height: 40px;
+            width: 40px
+        }
+
+        .vote-base-wrap .overview-info .overview-info-item .overview-info-desc {
+            display: flex;
+            flex-direction: column;
+            margin-left: 18px
+        }
+
+            .vote-base-wrap .overview-info .overview-info-item .overview-info-desc .overview-title {
+                color: #91979d;
+                font-size: 14px;
+                line-height: 16px;
+                margin-bottom: 4px
+            }
+
+            .vote-base-wrap .overview-info .overview-info-item .overview-info-desc .overview-num {
+                display: flex;
+                font-family: lato;
+                line-height: 24px
+            }
+
+                .vote-base-wrap .overview-info .overview-info-item .overview-info-desc .overview-num .total-num {
+                    color: #101010;
+                    font-size: 20px;
+                    font-weight: 700
+                }
+
+                .vote-base-wrap .overview-info .overview-info-item .overview-info-desc .overview-num .add-num {
+                    color: #2d912c;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-left: 10px
+                }
+
+                    .vote-base-wrap .overview-info .overview-info-item .overview-info-desc .overview-num .add-num .text-danger {
+                        color: #c23631 !important
+                    }
+
+.vote-base-wrap .overview-progress {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    min-width: 200px;
+    position: relative
+}
+
+    .vote-base-wrap .overview-progress .ant-progress.ant-progress-circle {
+        bottom: -62px;
+        position: absolute
+    }
+
+        .vote-base-wrap .overview-progress .ant-progress.ant-progress-circle:before {
+            color: hsla(210,6%,59%,.5);
+            content: "0h";
+            display: block;
+            font-family: lato;
+            font-size: 14px;
+            font-weight: 400;
+            left: -25px;
+            line-height: 17px;
+            margin-top: -10px;
+            position: absolute;
+            top: 50%
+        }
+
+        .vote-base-wrap .overview-progress .ant-progress.ant-progress-circle:after {
+            color: hsla(210,6%,59%,.5);
+            content: "6h";
+            display: block;
+            font-family: lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            margin-top: -10px;
+            position: absolute;
+            right: -25px;
+            top: 50%
+        }
+
+    .vote-base-wrap .overview-progress .progress-desc {
+        align-items: center;
+        bottom: 10px;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        position: absolute
+    }
+
+        .vote-base-wrap .overview-progress .progress-desc .timer-wrap {
+            font-family: lato;
+            position: absolute;
+            top: -25px
+        }
+
+        .vote-base-wrap .overview-progress .progress-desc .timer-sub {
+            color: #c3c3c3;
+            margin-left: 8px;
+            margin-right: 8px;
+            vertical-align: text-top
+        }
+
+        .vote-base-wrap .overview-progress .progress-desc .desc {
+            color: #91979d;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16px;
+            margin-top: 11px;
+            transform: translateY(-4px)
+        }
+
+    .vote-base-wrap .overview-progress .question-mark-top-right {
+        cursor: pointer;
+        position: absolute;
+        right: -5px;
+        top: -5px
+    }
+
+.vote-base-wrap .base-account {
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 171px;
+    margin-left: 20px;
+    padding: 14px 20px 20px;
+    width: 654px
+}
+
+    .vote-base-wrap .base-account .account-info {
+        display: flex;
+        padding-top: 0
+    }
+
+    .vote-base-wrap .base-account .account-info-item {
+        flex: 1 1;
+        margin-top: 20px
+    }
+
+        .vote-base-wrap .base-account .account-info-item:not(:first-of-type) {
+            border-left: .5px dashed #e0e4e8;
+            padding-left: 20px
+        }
+
+        .vote-base-wrap .base-account .account-info-item .account-info-title {
+            color: #91979d;
+            font-size: 12px;
+            line-height: 16px
+        }
+
+        .vote-base-wrap .base-account .account-info-item .account-info-num {
+            color: #101010;
+            font-family: lato;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            margin-top: 4px
+        }
+
+        .vote-base-wrap .base-account .account-info-item .account-info-btn {
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 12px;
+            height: 26px;
+            line-height: 26px;
+            margin-top: 14px;
+            min-width: 90px;
+            padding: 0 15px;
+            text-align: center;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content
+        }
+
+            .vote-base-wrap .base-account .account-info-item .account-info-btn:hover {
+                color: #101010
+            }
+
+        .vote-base-wrap .base-account .account-info-item .account-info-btn1 {
+            background: #fef8e8;
+            color: #b68c15
+        }
+
+            .vote-base-wrap .base-account .account-info-item .account-info-btn1:hover {
+                background: #fceec6
+            }
+
+        .vote-base-wrap .base-account .account-info-item .account-info-btn2 {
+            background: #ebf9eb;
+            color: #3cc13b
+        }
+
+            .vote-base-wrap .base-account .account-info-item .account-info-btn2:hover {
+                background: #ceefce
+            }
+
+        .vote-base-wrap .base-account .account-info-item .account-info-btn3 {
+            background: #fff4eb;
+            color: #be6b2b
+        }
+
+            .vote-base-wrap .base-account .account-info-item .account-info-btn3:hover {
+                background: #ffe3cd
+            }
+
+        .vote-base-wrap .base-account .account-info-item .account-info-btn.disabled {
+            background: #f0f2f3;
+            color: #c2c9d1;
+            cursor: not-allowed
+        }
+
+    .vote-base-wrap .base-account .account-top {
+        border-bottom: .5px dashed #e0e4e8 !important;
+        display: flex;
+        line-height: 19px;
+        padding-bottom: 14px
+    }
+
+        .vote-base-wrap .base-account .account-top .vote-address {
+            display: inline-flex;
+            flex: 1 1;
+            justify-content: flex-start
+        }
+
+            .vote-base-wrap .base-account .account-top .vote-address .truncate-ellipsis {
+                font-family: lato;
+                width: 100%
+            }
+
+                .vote-base-wrap .base-account .account-top .vote-address .truncate-ellipsis a {
+                    color: #101010;
+                    font-size: 16px;
+                    font-weight: 700
+                }
+
+    .vote-base-wrap .base-account .account-name {
+        color: #91979d;
+        display: inline-block;
+        font-size: 14px;
+        margin-right: 10px
+    }
+
+    .vote-base-wrap .base-account .account-btn {
+        background: #101010;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 12px;
+        height: 26px;
+        line-height: 26px;
+        padding: 0 10px;
+        text-align: center
+    }
+
+        .vote-base-wrap .base-account .account-btn:hover {
+            background: #c23631;
+            transition: all .35s
+        }
+
+@media screen and (max-width:768px) {
+    .vote-base-wrap .base-overview, .vote-base-wrap.base-wrap {
+        flex-direction: column;
+        width: 100%
+    }
+
+    .vote-base-wrap .base-overview {
+        display: flex;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        padding-bottom: 28px
+    }
+
+        .vote-base-wrap .base-overview .overview-info-realtime {
+            padding-bottom: 15px
+        }
+
+        .vote-base-wrap .base-overview .overview-info-add {
+            padding-top: 15px
+        }
+
+        .vote-base-wrap .base-overview .overview-progress {
+            height: 145px;
+            max-width: none;
+            min-width: none;
+            position: relative
+        }
+
+            .vote-base-wrap .base-overview .overview-progress .progress-desc {
+                bottom: 0
+            }
+
+            .vote-base-wrap .base-overview .overview-progress .desc {
+                align-items: center;
+                display: flex
+            }
+
+            .vote-base-wrap .base-overview .overview-progress .question-mark {
+                left: 4px;
+                position: relative;
+                right: 0;
+                top: 0
+            }
+
+            .vote-base-wrap .base-overview .overview-progress .ant-progress.ant-progress-circle {
+                bottom: -55px
+            }
+
+    .vote-base-wrap .base-account {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 20px;
+        width: 100%
+    }
+
+        .vote-base-wrap .base-account .account-name {
+            margin-bottom: 10px
+        }
+
+        .vote-base-wrap .base-account .account-top {
+            flex-direction: column
+        }
+
+            .vote-base-wrap .base-account .account-top .vote-address {
+                margin-top: 6px
+            }
+
+        .vote-base-wrap .base-account .account-info {
+            flex-direction: column
+        }
+
+            .vote-base-wrap .base-account .account-info .account-info-item {
+                align-items: center;
+                border-left: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 14px;
+                padding-left: 0
+            }
+
+                .vote-base-wrap .base-account .account-info .account-info-item:not(:last-of-type) {
+                    border-bottom: 1px dashed #e0e4e8;
+                    padding-bottom: 14px
+                }
+
+                .vote-base-wrap .base-account .account-info .account-info-item .account-info-btn {
+                    margin-top: 0
+                }
+
+        .vote-base-wrap .base-account .account-btn {
+            margin-top: 10px
+        }
+
+    .vote-base-wrap .overview-info .overview-info-item.overview-info-add {
+        align-items: center
+    }
+
+    .vote-base-wrap .overview-info .overview-info-item .overview-info-desc .overview-num {
+        flex-direction: column
+    }
+
+        .vote-base-wrap .overview-info .overview-info-item .overview-info-desc .overview-num .add-num {
+            margin-left: 0
+        }
+}
+
+.tron-feedback-container {
+    align-items: center;
+    background: #d4726f;
+    border-radius: 20px;
+    bottom: 50px;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    padding: 0;
+    position: fixed;
+    right: 50px;
+    z-index: 999
+}
+
+@media screen and (max-width:768px) {
+    .tron-feedback-container {
+        bottom: 20px;
+        right: 15px
+    }
+}
+
+.tron-feedback-container .tron-icon-like {
+    font-size: 40px
+}
+
+    .tron-feedback-container .tron-icon-like:hover {
+        transform: scale(1.1)
+    }
+
+.tron-feedback-container .tron-feedback-text {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    left: 54px;
+    opacity: 0;
+    position: absolute;
+    white-space: nowrap
+}
+
+.tron-feedback-container-long {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: long-width
+}
+
+    .tron-feedback-container-long:hover .tron-icon-like:hover {
+        transform: scale(1)
+    }
+
+    .tron-feedback-container-long .tron-feedback-text {
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-name: show
+    }
+
+.tron-feedback-container-long-en {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: long-width-en
+}
+
+    .tron-feedback-container-long-en:hover .tron-icon-like:hover {
+        transform: scale(1)
+    }
+
+    .tron-feedback-container-long-en .tron-feedback-text {
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-name: show
+    }
+
+.tron-feedback-container-long-close {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-name: short-width
+}
+
+    .tron-feedback-container-long-close .tron-feedback-text {
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        animation-name: hide
+    }
+
+    .tron-feedback-container-long-close:hover .tron-icon-like:hover {
+        transform: scale(1.1)
+    }
+
+.tron-feedback-modal {
+    animation: fadelogIn .4s;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 -4px 20px rgba(0,0,0,.06);
+    cursor: auto;
+    height: 150px;
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    top: -158px;
+    width: 300px;
+    z-index: 9999
+}
+
+    .tron-feedback-modal .tron-icon-close {
+        color: #101010;
+        cursor: pointer;
+        font-size: 12px;
+        position: absolute;
+        right: 20px;
+        top: 20px
+    }
+
+    .tron-feedback-modal .tron-feedback-modal-title {
+        color: #101010;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 24px;
+        text-align: center
+    }
+
+    .tron-feedback-modal .tron-feedback-modal-content {
+        display: flex;
+        justify-content: space-between
+    }
+
+        .tron-feedback-modal .tron-feedback-modal-content .tron-feedback-modal-btn {
+            align-items: center;
+            background-color: #101010;
+            border-radius: 10px;
+            color: #fff;
+            cursor: pointer;
+            display: flex;
+            font-size: 16px;
+            font-weight: 400;
+            height: 40px;
+            justify-content: center;
+            width: 110px
+        }
+
+            .tron-feedback-modal .tron-feedback-modal-content .tron-feedback-modal-btn:hover {
+                background-color: #c23631;
+                transition: all .35s
+            }
+
+        .tron-feedback-modal .tron-feedback-modal-content .loading-img {
+            animation: loading 1s linear infinite forwards;
+            font-size: 14px;
+            margin-left: 4px
+        }
+
+.tron-feedback-modal-mask {
+    background-color: rgba(0,0,0,.45);
+    bottom: 0;
+    cursor: auto;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000
+}
+
+.tron-feedback-modal-middle {
+    height: 180px;
+    top: -190px;
+    width: 300px
+}
+
+    .tron-feedback-modal-middle .tron-feedback-modal-title {
+        margin-bottom: 8px
+    }
+
+    .tron-feedback-modal-middle .tron-feedback-modal-subtitle {
+        color: #73787b;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        text-align: center
+    }
+
+    .tron-feedback-modal-middle .tron-feedback-modal-content {
+        flex-wrap: wrap
+    }
+
+        .tron-feedback-modal-middle .tron-feedback-modal-content .tron-feedback-modal-btn {
+            width: 100%
+        }
+
+.tron-feedback-modal-large {
+    height: 300px;
+    top: -308px;
+    width: 300px
+}
+
+    .tron-feedback-modal-large .tron-feedback-modal-title {
+        margin-bottom: 8px
+    }
+
+    .tron-feedback-modal-large .tron-feedback-modal-subtitle {
+        color: #73787b;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        text-align: center
+    }
+
+    .tron-feedback-modal-large .tron-feedback-modal-content {
+        flex-wrap: wrap
+    }
+
+        .tron-feedback-modal-large .tron-feedback-modal-content .tron-feedback-modal-btn {
+            width: 100%
+        }
+
+        .tron-feedback-modal-large .tron-feedback-modal-content .tron-feedback-modal-btn-disable {
+            background-color: #c2c9d1;
+            cursor: not-allowed
+        }
+
+            .tron-feedback-modal-large .tron-feedback-modal-content .tron-feedback-modal-btn-disable:hover {
+                background-color: #c2c9d1
+            }
+
+        .tron-feedback-modal-large .tron-feedback-modal-content textarea {
+            border-radius: 10px;
+            color: #101010;
+            font-size: 14px;
+            font-weight: 400;
+            height: 110px;
+            margin-bottom: 20px
+        }
+
+            .tron-feedback-modal-large .tron-feedback-modal-content textarea:focus, .tron-feedback-modal-large .tron-feedback-modal-content textarea:focus-visible, .tron-feedback-modal-large .tron-feedback-modal-content textarea:focus-within, .tron-feedback-modal-large .tron-feedback-modal-content textarea:hover {
+                border-color: #73787b;
+                box-shadow: none;
+                outline: none
+            }
+
+            .tron-feedback-modal-large .tron-feedback-modal-content textarea::placeholder {
+                color: #91979d
+            }
+
+.tron-feedback-modal-large-en {
+    padding: 30px 20px 20px
+}
+
+.tron-feedback-modal-close {
+    animation: fadelogOut .4s
+}
+
+@keyframes long-width {
+    0% {
+        padding: 0;
+        width: 40px
+    }
+
+    to {
+        padding: 0 10px;
+        width: 176px
+    }
+}
+
+@keyframes long-width-en {
+    0% {
+        padding: 0;
+        width: 40px
+    }
+
+    to {
+        padding: 0 10px;
+        width: 200px
+    }
+}
+
+@keyframes short-width {
+    0% {
+        padding: 0 10px;
+        width: 176px
+    }
+
+    to {
+        padding: 0;
+        width: 40px
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes fadelogIn {
+    0% {
+        transform: translate3d(0,100%,0)
+    }
+
+    to {
+        transform: none
+    }
+}
+
+@keyframes fadelogOut {
+    0% {
+        transform: none
+    }
+
+    to {
+        transform: translate3d(0,100%,0)
+    }
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(180deg)
+    }
+}

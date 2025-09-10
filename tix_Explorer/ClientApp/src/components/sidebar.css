@@ -1,0 +1,85 @@
+﻿/* Sidebar container */
+@media screen and (max-width: 768px){
+    .sidebar{
+        display:block !important;
+    }
+}
+.sidebar {
+    position: fixed;
+    right: 0px;
+    top: 0;
+    display: none;
+    bottom: 0;
+    width: 250px;
+    background-color: #fff;
+    color: #000;
+    padding-top: 60px; /* Height of the header */
+    transition: width 0.3s ease;
+    z-index: 99999;
+    transition: all 0.5s ease;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+    /* Sidebar collapsed state */
+    .sidebar.collapsed {
+        width: 60px;
+    }
+
+/* Sidebar header */
+.sidebar-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+/* Menu item */
+.menu-item {
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    /* Active menu item */
+    .menu-item.active {
+        background-color: #666;
+    }
+
+/* Submenu */
+.submenu {
+    display: none;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.menu-item.active .submenu {
+    display: block;
+}
+
+/* Submenu item */
+.submenu li {
+    padding: 8px 0;
+}
+
+/* Hover effect */
+.menu-item:hover {
+    background-color: #f3f3f3;
+    border-radius: 20px;
+}
+.drawWrapper:hover .sidebar {
+    right: 0;
+}
+.crossicon{
+    position:absolute;
+    top:20px;
+    right:30px;
+}
+/*.skiptranslate {
+    display: none;
+}*/

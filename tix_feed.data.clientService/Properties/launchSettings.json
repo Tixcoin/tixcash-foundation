@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "tix_feed.data.clientService": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
